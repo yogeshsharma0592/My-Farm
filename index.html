@@ -1,0 +1,93 @@
+Hello this is farm named "My Farm" located at biratnagar in which you can get information about the product privce and limited offer of the product.
+<html>
+
+<head>
+    <style>
+        /* CSS code for styling the website */
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F0F8FF;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #228B22;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        .product {
+            display: flex;
+            align-items: center;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #B0C4DE;
+            border-radius: 10px;
+        }
+        
+        .product-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .product-info {
+            margin-left: 20px;
+        }
+        
+        .product-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .product-price {
+            font-size: 20px;
+            color: #FF0000;
+        }
+        
+        .product-offer {
+            font-size: 16px;
+            color: #008000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to My Farm store</h1>
+    <div class="container">
+        <!-- HTML code for displaying the products -->
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.Mq_AyUjrfqycwN24UfitQQHaEg?w=272&h=180&c=7&r=0&o=5&pid=1.7" alt="Apple" class="product-image">
+            <div class="product-info">
+                <p class="product-name">Apple</p>
+                <p class="product-price">Rs.300 per kg</p>
+                <p class="product-offer">Buy 5 kg and get 1 kg free</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.iwaPW3ToB2qHni8cWyN2rgHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7" alt="Carrot" class="product-image">
+            <div class="product-info">
+                <p class="product-name">Carrot</p>
+                <p class="product-price">Rs.30per kg</p>
+                <p class="product-offer">Buy 10 kg and get 2 kg free</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="data:image/jpeg;base64,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"
+                alt="egg" class="product-image">
+            <div class="product-info">
+                <p class="product-name">Egg</p>
+                <p class="product-price">Rs.25per pieces(limited)</p>
+                <p class="product-offer">Buy 10 and get 2 free (limited offer from 2080/10/14 t0 2080/1015)</p>
+                <p class="product-offer">if you get it from farm fou will get 20% more successive discount in each pieces</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+I hope this helps you . Have a nice day! 😊
